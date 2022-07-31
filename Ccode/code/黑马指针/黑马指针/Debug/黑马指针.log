@@ -1,0 +1,4 @@
+﻿  指针.c
+d:\c++培训资料\code\黑马指针\黑马指针\指针.c(20): warning C4013: “system”未定义；假设外部返回 int
+  黑马指针.vcxproj -> D:\c++培训资料\code\黑马指针\Debug\黑马指针.exe
+  黑马指针.vcxproj -> D:\c++培训资料\code\黑马指针\Debug\黑马指针.pdb (Full PDB)

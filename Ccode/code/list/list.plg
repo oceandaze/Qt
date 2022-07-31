@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: list - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPF298.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/list.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\c++培训资料\code\list\list.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPF298.tmp" 
+<h3>Output Window</h3>
+Compiling...
+list.c
+d:\c++培训资料\code\list\list.c(6) : error C2065: '_finddata_t' : undeclared identifier
+d:\c++培训资料\code\list\list.c(6) : error C2146: syntax error : missing ';' before identifier 'fileDir'
+d:\c++培训资料\code\list\list.c(6) : error C2065: 'fileDir' : undeclared identifier
+d:\c++培训资料\code\list\list.c(9) : error C2143: syntax error : missing ';' before 'type'
+d:\c++培训资料\code\list\list.c(12) : error C2065: 'lfDir' : undeclared identifier
+d:\c++培训资料\code\list\list.c(12) : error C2065: 'dir' : undeclared identifier
+d:\c++培训资料\code\list\list.c(12) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+d:\c++培训资料\code\list\list.c(12) : warning C4024: '_findfirst' : different types for formal and actual parameter 1
+d:\c++培训资料\code\list\list.c(12) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _finddata_t *'
+d:\c++培训资料\code\list\list.c(17) : error C2224: left of '.name' must have struct/union type
+d:\c++培训资料\code\list\list.c(18) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _finddata_t *'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+list.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

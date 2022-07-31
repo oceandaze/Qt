@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: guess - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\LJJ\AppData\Local\Temp\RSP6FD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/guess.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\我的工作内容\2021年工作\03  C语言从入门到精通升级\《C语言从入门到精通（第5版）》\sl\06\编程训练\11\guess.c"
+]
+Creating command line "cl.exe @C:\Users\LJJ\AppData\Local\Temp\RSP6FD.tmp" 
+Creating temporary file "C:\Users\LJJ\AppData\Local\Temp\RSP6FE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/guess.pdb" /debug /machine:I386 /out:"Debug/guess.exe" /pdbtype:sept 
+".\Debug\guess.obj"
+]
+Creating command line "link.exe @C:\Users\LJJ\AppData\Local\Temp\RSP6FE.tmp"
+<h3>Output Window</h3>
+Compiling...
+guess.c
+Linking...
+
+
+
+<h3>Results</h3>
+guess.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+typedef unsigned char * ucp;
+void qSort(void * arr, size_t n, size_t size, int (*func)(\
+	const void * ,const void *))
+{
+	ucp p = NULL;
+	ucp q = NULL;
+	ucp end = (ucp)arr + ((n - 1) * size); //最后一个元素的位置
+	ucp temp = (ucp)malloc(size);
+	for(p = arr; p < (ucp)arr + ((n - 1) * size); p += size)
+	{
+		for(q = arr; q < end ; q += size)
+		{
+			int res = func(q, q + size);
+			if(res > 0)
+			{
+				memcpy(temp, q, size);
+				memcpy(q, q + size, size);
+				memcpy(q + size, temp, size);
+			}
+		}
+		end -= size;
+	}
+	free(temp);
+	temp = NULL;
+}
+int cmp(const void * a, const void * b)
+{
+	return *(char *)a - *(char *)b;
+}
+int main()
+{
+	int arr[100] = {-1,5,-3,0,7};
+	char str[100] = {"hello"};
+	int n = 5;
+	int i = 0;
+	qSort(str, strlen(str), sizeof(char), cmp);
+	puts(str);
+	return 0;
+}

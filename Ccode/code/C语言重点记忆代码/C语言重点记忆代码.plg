@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: C语言重点记忆代码 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9BB2.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/C语言重点记忆代码.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\c++培训资料\code\C语言重点记忆代码\1、关于数组.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9BB2.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP9BB3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/C语言重点记忆代码.pdb" /debug /machine:I386 /out:"Debug/C语言重点记忆代码.exe" /pdbtype:sept 
+".\Debug\1、关于数组.obj"
+".\Debug\函数指针.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP9BB3.tmp"
+<h3>Output Window</h3>
+Compiling...
+1、关于数组.c
+D:\c++培训资料\code\C语言重点记忆代码\1、关于数组.c(297) : warning C4047: 'return' : 'int *' differs in levels of indirection from 'int '
+D:\c++培训资料\code\C语言重点记忆代码\1、关于数组.c(421) : warning C4047: '=' : 'int *' differs in levels of indirection from 'int '
+D:\c++培训资料\code\C语言重点记忆代码\1、关于数组.c(423) : warning C4047: '=' : 'int ' differs in levels of indirection from 'int *'
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/C语言重点记忆代码.bsc"  ".\Debug\1、关于数组.sbr" ".\Debug\函数指针.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+C语言重点记忆代码.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

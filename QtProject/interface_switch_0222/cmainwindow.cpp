@@ -1,0 +1,19 @@
+#include "cmainwindow.h"
+#include "ui_cmainwindow.h"
+
+CMainWindow::CMainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::CMainWindow)
+{
+    ui->setupUi(this);
+}
+
+CMainWindow::~CMainWindow()
+{
+    delete ui;
+}
+
+void CMainWindow::on_pushButton_clicked()
+{
+    emit cSignal();
+}

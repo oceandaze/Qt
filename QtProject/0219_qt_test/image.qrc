@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file alias="ico">Network.ico</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file alias="png">文字.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix3">
+        <file alias="touming">3.webp</file>
+    </qresource>
+    <qresource prefix="/new/prefix4">
+        <file alias="touming">C:/Users/Administrator/Desktop/Q7.png</file>
+    </qresource>
+</RCC>

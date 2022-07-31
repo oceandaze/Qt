@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>1.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix2">
+        <file>7.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix3">
+        <file>5.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix4">
+        <file>6.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix5">
+        <file>8.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix6">
+        <file>9.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix7">
+        <file>10.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix8">
+        <file>12.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix9">
+        <file>13.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix10">
+        <file>14.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix11">
+        <file>15.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix12">
+        <file>16.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix13">
+        <file>2.png</file>
+    </qresource>
+</RCC>
